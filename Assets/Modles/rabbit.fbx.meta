@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: fa26eab7a20b04d43bc5201baeebabb1
+timeCreated: 1486940580
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back
+    100002: base
+    100004: body
+    100006: booper
+    100008: flooferConnecter
+    100010: floofyButt
+    100012: floofyNub
+    100014: ikHandle1
+    100016: ikHandle2
+    100018: ikHandle3
+    100020: ikHandle4
+    100022: ikHandle5
+    100024: ikHandle6
+    100026: ikHandle7
+    100028: ikHandle8
+    100030: left_Back
+    100032: left_Front
+    100034: leftElbow
+    100036: leftFoot
+    100038: leftFoot 1
+    100040: leftHeel
+    100042: leftHip
+    100044: leftKnee
+    100046: leftNubbyListner
+    100048: leftShoulder
+    100050: leftToe
+    100052: leftToe 1
+    100054: leftTwitchyNubyEar
+    100056: lowerBack
+    100058: neck
+    100060: neck2
+    100062: pCube1
+    100064: //RootNode
+    100066: ribs
+    100068: right_Back
+    100070: right_Front
+    100072: rightElbow
+    100074: rightFoot
+    100076: rightFoot 1
+    100078: rightHeel
+    100080: rightHip
+    100082: rightKnee
+    100084: rightNubbyListner
+    100086: rightShoulder
+    100088: rightToe
+    100090: rightToe 1
+    100092: rightTwitchyNubyEar
+    100094: snuffer
+    400000: back
+    400002: base
+    400004: body
+    400006: booper
+    400008: flooferConnecter
+    400010: floofyButt
+    400012: floofyNub
+    400014: ikHandle1
+    400016: ikHandle2
+    400018: ikHandle3
+    400020: ikHandle4
+    400022: ikHandle5
+    400024: ikHandle6
+    400026: ikHandle7
+    400028: ikHandle8
+    400030: left_Back
+    400032: left_Front
+    400034: leftElbow
+    400036: leftFoot
+    400038: leftFoot 1
+    400040: leftHeel
+    400042: leftHip
+    400044: leftKnee
+    400046: leftNubbyListner
+    400048: leftShoulder
+    400050: leftToe
+    400052: leftToe 1
+    400054: leftTwitchyNubyEar
+    400056: lowerBack
+    400058: neck
+    400060: neck2
+    400062: pCube1
+    400064: //RootNode
+    400066: ribs
+    400068: right_Back
+    400070: right_Front
+    400072: rightElbow
+    400074: rightFoot
+    400076: rightFoot 1
+    400078: rightHeel
+    400080: rightHip
+    400082: rightKnee
+    400084: rightNubbyListner
+    400086: rightShoulder
+    400088: rightToe
+    400090: rightToe 1
+    400092: rightTwitchyNubyEar
+    400094: snuffer
+    4300000: pCube1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: pCube1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

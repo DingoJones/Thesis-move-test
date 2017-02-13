@@ -1,0 +1,460 @@
+fileFormatVersion: 2
+guid: 6b0874b0be1ed4d37a624e7b0a350322
+timeCreated: 1484606591
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Back
+    100002: Back_Left_footCTRL
+    100004: Back_Left_ikHandle
+    100006: Back_Right_footCTRL
+    100008: Back_Right_ikHandle
+    100010: backCTRL
+    100012: BodyCTRL
+    100014: Front_Left_footCTRL
+    100016: Front_Left_ikHandle
+    100018: Front_Right_footCTRL
+    100020: Front_Right_ikHandle
+    100022: Head
+    100024: Hip
+    100026: hipCTRL
+    100028: Jaw
+    100030: LeftEar
+    100032: LeftElbow
+    100034: LeftEye
+    100036: LeftFoot
+    100038: LeftHip
+    100040: LeftKnee
+    100042: LeftPaw
+    100044: LeftPJoint
+    100046: LeftShoulder
+    100048: LeftShoulderblade
+    100050: LeftToe
+    100052: Neck1
+    100054: neck1CTRL
+    100056: Neck2
+    100058: neck2CTRL
+    100060: Pelvis
+    100062: PelvisCTRL
+    100064: Ribs
+    100066: ribsCTRL
+    100068: RigBase
+    100070: RightEar
+    100072: RightElbow
+    100074: RightEye
+    100076: RightFoot
+    100078: RightHip
+    100080: RightKnee
+    100082: RightPaw
+    100084: RightPJoint
+    100086: RightShoulder
+    100088: RightShoulderblade
+    100090: RightToe
+    100092: Tail1
+    100094: Tail2
+    100096: Tail3
+    100098: Tail4
+    100100: TailBase
+    100102: Wolf1
+    100104: //RootNode
+    100106: WolfHead
+    400000: Back
+    400002: Back_Left_footCTRL
+    400004: Back_Left_ikHandle
+    400006: Back_Right_footCTRL
+    400008: Back_Right_ikHandle
+    400010: backCTRL
+    400012: BodyCTRL
+    400014: Front_Left_footCTRL
+    400016: Front_Left_ikHandle
+    400018: Front_Right_footCTRL
+    400020: Front_Right_ikHandle
+    400022: Head
+    400024: Hip
+    400026: hipCTRL
+    400028: Jaw
+    400030: LeftEar
+    400032: LeftElbow
+    400034: LeftEye
+    400036: LeftFoot
+    400038: LeftHip
+    400040: LeftKnee
+    400042: LeftPaw
+    400044: LeftPJoint
+    400046: LeftShoulder
+    400048: LeftShoulderblade
+    400050: LeftToe
+    400052: Neck1
+    400054: neck1CTRL
+    400056: Neck2
+    400058: neck2CTRL
+    400060: Pelvis
+    400062: PelvisCTRL
+    400064: Ribs
+    400066: ribsCTRL
+    400068: RigBase
+    400070: RightEar
+    400072: RightElbow
+    400074: RightEye
+    400076: RightFoot
+    400078: RightHip
+    400080: RightKnee
+    400082: RightPaw
+    400084: RightPJoint
+    400086: RightShoulder
+    400088: RightShoulderblade
+    400090: RightToe
+    400092: Tail1
+    400094: Tail2
+    400096: Tail3
+    400098: Tail4
+    400100: TailBase
+    400102: Wolf1
+    400104: //RootNode
+    400106: WolfHead
+    4300000: Wolf1
+    4300002: RightEye
+    4300004: LeftEye
+    7400000: Walk
+    7400002: idle
+    9500000: //RootNode
+    13700000: LeftEye
+    13700002: RightEye
+    13700004: Wolf1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: LeftEye
+        weight: 1
+      - path: RigBase
+        weight: 1
+      - path: RigBase/Back_Left_footCTRL
+        weight: 1
+      - path: RigBase/Back_Left_footCTRL/Back_Left_ikHandle
+        weight: 1
+      - path: RigBase/Back_Right_footCTRL
+        weight: 1
+      - path: RigBase/Back_Right_footCTRL/Back_Right_ikHandle
+        weight: 1
+      - path: RigBase/BodyCTRL
+        weight: 1
+      - path: RigBase/BodyCTRL/backCTRL
+        weight: 1
+      - path: RigBase/BodyCTRL/backCTRL/Back
+        weight: 1
+      - path: RigBase/BodyCTRL/hipCTRL
+        weight: 1
+      - path: RigBase/BodyCTRL/hipCTRL/Hip
+        weight: 1
+      - path: RigBase/BodyCTRL/neck1CTRL
+        weight: 1
+      - path: RigBase/BodyCTRL/neck2CTRL
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/LeftPJoint
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/LeftPJoint/LeftHip
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/LeftPJoint/LeftHip/LeftKnee
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/LeftPJoint/LeftHip/LeftKnee/LeftFoot
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/LeftPJoint/LeftHip/LeftKnee/LeftFoot/LeftToe
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/RightPJoint
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/RightPJoint/RightHip
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/RightPJoint/RightHip/RightKnee
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/RightPJoint/RightHip/RightKnee/RightFoot
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/RightPJoint/RightHip/RightKnee/RightFoot/RightToe
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/TailBase
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/TailBase/Tail1
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/TailBase/Tail1/Tail2
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/TailBase/Tail1/Tail2/Tail3
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/TailBase/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs/LeftShoulderblade
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs/LeftShoulderblade/LeftShoulder
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs/LeftShoulderblade/LeftShoulder/LeftElbow
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs/LeftShoulderblade/LeftShoulder/LeftElbow/LeftPaw
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs/RightShoulderblade
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs/RightShoulderblade/RightShoulder
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs/RightShoulderblade/RightShoulder/RightElbow
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs/RightShoulderblade/RightShoulder/RightElbow/RightPaw
+        weight: 1
+      - path: RigBase/BodyCTRL/WolfHead
+        weight: 1
+      - path: RigBase/BodyCTRL/WolfHead/Neck1
+        weight: 1
+      - path: RigBase/BodyCTRL/WolfHead/Neck1/Neck2
+        weight: 1
+      - path: RigBase/BodyCTRL/WolfHead/Neck1/Neck2/Head
+        weight: 1
+      - path: RigBase/BodyCTRL/WolfHead/Neck1/Neck2/Head/Jaw
+        weight: 1
+      - path: RigBase/BodyCTRL/WolfHead/Neck1/Neck2/Head/LeftEar
+        weight: 1
+      - path: RigBase/BodyCTRL/WolfHead/Neck1/Neck2/Head/RightEar
+        weight: 1
+      - path: RigBase/Front_Left_footCTRL
+        weight: 1
+      - path: RigBase/Front_Left_footCTRL/Front_Left_ikHandle
+        weight: 1
+      - path: RigBase/Front_Right_footCTRL
+        weight: 1
+      - path: RigBase/Front_Right_footCTRL/Front_Right_ikHandle
+        weight: 1
+      - path: RightEye
+        weight: 1
+      - path: Wolf1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: LeftEye
+        weight: 1
+      - path: RigBase
+        weight: 1
+      - path: RigBase/Back_Left_footCTRL
+        weight: 1
+      - path: RigBase/Back_Left_footCTRL/Back_Left_ikHandle
+        weight: 1
+      - path: RigBase/Back_Right_footCTRL
+        weight: 1
+      - path: RigBase/Back_Right_footCTRL/Back_Right_ikHandle
+        weight: 1
+      - path: RigBase/BodyCTRL
+        weight: 1
+      - path: RigBase/BodyCTRL/backCTRL
+        weight: 1
+      - path: RigBase/BodyCTRL/backCTRL/Back
+        weight: 1
+      - path: RigBase/BodyCTRL/hipCTRL
+        weight: 1
+      - path: RigBase/BodyCTRL/hipCTRL/Hip
+        weight: 1
+      - path: RigBase/BodyCTRL/neck1CTRL
+        weight: 1
+      - path: RigBase/BodyCTRL/neck2CTRL
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/LeftPJoint
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/LeftPJoint/LeftHip
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/LeftPJoint/LeftHip/LeftKnee
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/LeftPJoint/LeftHip/LeftKnee/LeftFoot
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/LeftPJoint/LeftHip/LeftKnee/LeftFoot/LeftToe
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/RightPJoint
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/RightPJoint/RightHip
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/RightPJoint/RightHip/RightKnee
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/RightPJoint/RightHip/RightKnee/RightFoot
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/RightPJoint/RightHip/RightKnee/RightFoot/RightToe
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/TailBase
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/TailBase/Tail1
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/TailBase/Tail1/Tail2
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/TailBase/Tail1/Tail2/Tail3
+        weight: 1
+      - path: RigBase/BodyCTRL/PelvisCTRL/Pelvis/TailBase/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs/LeftShoulderblade
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs/LeftShoulderblade/LeftShoulder
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs/LeftShoulderblade/LeftShoulder/LeftElbow
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs/LeftShoulderblade/LeftShoulder/LeftElbow/LeftPaw
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs/RightShoulderblade
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs/RightShoulderblade/RightShoulder
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs/RightShoulderblade/RightShoulder/RightElbow
+        weight: 1
+      - path: RigBase/BodyCTRL/ribsCTRL/Ribs/RightShoulderblade/RightShoulder/RightElbow/RightPaw
+        weight: 1
+      - path: RigBase/BodyCTRL/WolfHead
+        weight: 1
+      - path: RigBase/BodyCTRL/WolfHead/Neck1
+        weight: 1
+      - path: RigBase/BodyCTRL/WolfHead/Neck1/Neck2
+        weight: 1
+      - path: RigBase/BodyCTRL/WolfHead/Neck1/Neck2/Head
+        weight: 1
+      - path: RigBase/BodyCTRL/WolfHead/Neck1/Neck2/Head/Jaw
+        weight: 1
+      - path: RigBase/BodyCTRL/WolfHead/Neck1/Neck2/Head/LeftEar
+        weight: 1
+      - path: RigBase/BodyCTRL/WolfHead/Neck1/Neck2/Head/RightEar
+        weight: 1
+      - path: RigBase/Front_Left_footCTRL
+        weight: 1
+      - path: RigBase/Front_Left_footCTRL/Front_Left_ikHandle
+        weight: 1
+      - path: RigBase/Front_Right_footCTRL
+        weight: 1
+      - path: RigBase/Front_Right_footCTRL/Front_Right_ikHandle
+        weight: 1
+      - path: RightEye
+        weight: 1
+      - path: Wolf1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

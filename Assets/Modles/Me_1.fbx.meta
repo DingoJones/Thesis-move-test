@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: 3f9294be7232147eda8f934c5bbb34ae
+timeCreated: 1478641045
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body:polySurface1
+    100002: Cntr
+    100004: group
+    100006: group1
+    100008: group2
+    100010: group3
+    100012: group4
+    100014: group5
+    100016: group6
+    100018: group7
+    100020: head
+    100022: Lfoot
+    100024: Lheel
+    100026: Lhip
+    100028: Lhnd
+    100030: Lknee
+    100032: Llbw
+    100034: LmdlA
+    100036: LmdlB
+    100038: LmdlC
+    100040: LndxA
+    100042: LndxB
+    100044: LndxC
+    100046: LpnkA
+    100048: LpnkB
+    100050: LpnkC
+    100052: LrngA
+    100054: LrngB
+    100056: LrngC
+    100058: Lrst
+    100060: Lshld
+    100062: LthbA
+    100064: LthbB
+    100066: LthbC
+    100068: lwrbk
+    100070: //RootNode
+    100072: neck
+    100074: pasted__group
+    100076: pasted__group1
+    100078: pasted__group1 1
+    100080: pasted__group1 2
+    100082: pasted__pasted__group
+    100084: pasted__pasted__group 1
+    100086: pasted__pasted__group 2
+    100088: pasted__pasted__pasted__pCube1
+    100090: pasted__pasted__pasted__pCube1 1
+    100092: pasted__pasted__pasted__pCube1 2
+    100094: pCube1
+    100096: pCube2
+    100098: polySurface2
+    100100: pPipe1
+    100102: Rfoot
+    100104: Rheel
+    100106: Rhip
+    100108: Rhnd
+    100110: Rknee
+    100112: Rlbw
+    100114: RmdlFA
+    100116: RmdlFB
+    100118: RmdlFC
+    100120: RndxA
+    100122: RndxA 1
+    100124: RndxA 2
+    100126: RpnkA
+    100128: RpnkB
+    100130: RpnkC
+    100132: RrngA
+    100134: RrngB
+    100136: RrngC
+    100138: Rrst
+    100140: Rshld
+    100142: RthbA
+    100144: RthbB
+    100146: RthbC
+    100148: shirt:polySurface1
+    100150: transform1
+    100152: uprbk
+    400000: body:polySurface1
+    400002: Cntr
+    400004: group
+    400006: group1
+    400008: group2
+    400010: group3
+    400012: group4
+    400014: group5
+    400016: group6
+    400018: group7
+    400020: head
+    400022: Lfoot
+    400024: Lheel
+    400026: Lhip
+    400028: Lhnd
+    400030: Lknee
+    400032: Llbw
+    400034: LmdlA
+    400036: LmdlB
+    400038: LmdlC
+    400040: LndxA
+    400042: LndxB
+    400044: LndxC
+    400046: LpnkA
+    400048: LpnkB
+    400050: LpnkC
+    400052: LrngA
+    400054: LrngB
+    400056: LrngC
+    400058: Lrst
+    400060: Lshld
+    400062: LthbA
+    400064: LthbB
+    400066: LthbC
+    400068: lwrbk
+    400070: //RootNode
+    400072: neck
+    400074: pasted__group
+    400076: pasted__group1
+    400078: pasted__group1 1
+    400080: pasted__group1 2
+    400082: pasted__pasted__group
+    400084: pasted__pasted__group 1
+    400086: pasted__pasted__group 2
+    400088: pasted__pasted__pasted__pCube1
+    400090: pasted__pasted__pasted__pCube1 1
+    400092: pasted__pasted__pasted__pCube1 2
+    400094: pCube1
+    400096: pCube2
+    400098: polySurface2
+    400100: pPipe1
+    400102: Rfoot
+    400104: Rheel
+    400106: Rhip
+    400108: Rhnd
+    400110: Rknee
+    400112: Rlbw
+    400114: RmdlFA
+    400116: RmdlFB
+    400118: RmdlFC
+    400120: RndxA
+    400122: RndxA 1
+    400124: RndxA 2
+    400126: RpnkA
+    400128: RpnkB
+    400130: RpnkC
+    400132: RrngA
+    400134: RrngB
+    400136: RrngC
+    400138: Rrst
+    400140: Rshld
+    400142: RthbA
+    400144: RthbB
+    400146: RthbC
+    400148: shirt:polySurface1
+    400150: transform1
+    400152: uprbk
+    4300000: polySurface2
+    4300002: pasted__pasted__pasted__pCube1
+    4300004: pasted__pasted__pasted__pCube1
+    4300006: pasted__pasted__pasted__pCube1
+    4300008: pPipe1
+    4300010: pCube2
+    4300012: body:polySurface1
+    4300014: shirt:polySurface1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: body:polySurface1
+    13700002: pasted__pasted__pasted__pCube1
+    13700004: pasted__pasted__pasted__pCube1 1
+    13700006: pasted__pasted__pasted__pCube1 2
+    13700008: pCube2
+    13700010: polySurface2
+    13700012: pPipe1
+    13700014: shirt:polySurface1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

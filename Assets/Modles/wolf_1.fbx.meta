@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: b4f656cbf33ee488b8b8aee593e0009d
+timeCreated: 1478640903
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Back
+    100002: Head
+    100004: Hip
+    100006: ikHandle1
+    100008: ikHandle2
+    100010: ikHandle3
+    100012: ikHandle4
+    100014: Jaw
+    100016: LeftEar
+    100018: LeftElbow
+    100020: LeftEye
+    100022: LeftFoot
+    100024: LeftHip
+    100026: LeftKnee
+    100028: LeftPaw
+    100030: LeftPJoint
+    100032: LeftShoulder
+    100034: LeftShoulderblade
+    100036: LeftToe
+    100038: Neck1
+    100040: Neck2
+    100042: nurbsCircle1
+    100044: nurbsCircle3
+    100046: nurbsCircle4
+    100048: Pelvis
+    100050: pointLight1
+    100052: Ribs
+    100054: RigBase
+    100056: RightEar
+    100058: RightElbow
+    100060: RightEye
+    100062: RightFoot
+    100064: RightHip
+    100066: RightKnee
+    100068: RightPaw
+    100070: RightPJoint
+    100072: RightShoulder
+    100074: RightShoulderblade
+    100076: RightToe
+    100078: Tail1
+    100080: Tail2
+    100082: Tail3
+    100084: Tail4
+    100086: TailBase
+    100088: transform2
+    100090: Wolf1
+    100092: //RootNode
+    100094: WolfHead
+    400000: Back
+    400002: Head
+    400004: Hip
+    400006: ikHandle1
+    400008: ikHandle2
+    400010: ikHandle3
+    400012: ikHandle4
+    400014: Jaw
+    400016: LeftEar
+    400018: LeftElbow
+    400020: LeftEye
+    400022: LeftFoot
+    400024: LeftHip
+    400026: LeftKnee
+    400028: LeftPaw
+    400030: LeftPJoint
+    400032: LeftShoulder
+    400034: LeftShoulderblade
+    400036: LeftToe
+    400038: Neck1
+    400040: Neck2
+    400042: nurbsCircle1
+    400044: nurbsCircle3
+    400046: nurbsCircle4
+    400048: Pelvis
+    400050: pointLight1
+    400052: Ribs
+    400054: RigBase
+    400056: RightEar
+    400058: RightElbow
+    400060: RightEye
+    400062: RightFoot
+    400064: RightHip
+    400066: RightKnee
+    400068: RightPaw
+    400070: RightPJoint
+    400072: RightShoulder
+    400074: RightShoulderblade
+    400076: RightToe
+    400078: Tail1
+    400080: Tail2
+    400082: Tail3
+    400084: Tail4
+    400086: TailBase
+    400088: transform2
+    400090: Wolf1
+    400092: //RootNode
+    400094: WolfHead
+    4300000: Wolf1
+    4300002: RightEye
+    4300004: LeftEye
+    9500000: //RootNode
+    13700000: LeftEye
+    13700002: RightEye
+    13700004: Wolf1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

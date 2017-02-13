@@ -1,0 +1,331 @@
+fileFormatVersion: 2
+guid: 6fba077e8f00447efb38e852753bafdc
+timeCreated: 1485634928
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Base
+    100004: Body
+    100006: bodyCNTR
+    100008: cntr
+    100010: eye1
+    100012: eye10
+    100014: eye11
+    100016: eye12
+    100018: eye13
+    100020: eye14
+    100022: eye15
+    100024: eye16
+    100026: eye17
+    100028: eye18
+    100030: eye19
+    100032: eye2
+    100034: eye20
+    100036: eye21
+    100038: eye22
+    100040: eye3
+    100042: eye4
+    100044: eye5
+    100046: eye6
+    100048: eye7
+    100050: eye8
+    100052: eye9
+    100054: group
+    100056: group1
+    100058: group2
+    100060: head
+    100062: ikHandle1
+    100064: ikHandle2
+    100066: ikHandle3
+    100068: ikHandle4
+    100070: ikHandle5
+    100072: ikHandle6
+    100074: ikHandle7
+    100076: ikHandle8
+    100078: ikHandle9
+    100080: leftFoot1A
+    100082: leftFoot1B
+    100084: leftFoot1C
+    100086: leftFoot1CNTR
+    100088: leftFoot1D
+    100090: leftFoot2A
+    100092: leftFoot2B
+    100094: leftFoot2C
+    100096: leftFoot2CNTR
+    100098: leftFoot2D
+    100100: leftFoot3A
+    100102: leftFoot3B
+    100104: leftFoot3C
+    100106: leftFoot3CNTR
+    100108: leftFoot3D
+    100110: leftFoot4A
+    100112: leftFoot4B
+    100114: leftFoot4C
+    100116: leftFoot4CNTR
+    100118: leftFoot4D
+    100120: leftWing
+    100122: mandLeft
+    100124: mandRight
+    100126: neck
+    100128: pasted__Base
+    100130: pasted__Base 1
+    100132: pasted__Base 2
+    100134: pasted__bodyCNTR
+    100136: pasted__bodyCNTR 1
+    100138: pasted__bodyCNTR 2
+    100140: pasted__cntr
+    100142: pasted__cntr 1
+    100144: pasted__cntr 2
+    100146: pasted__rightWing
+    100148: pasted__rightWing 1
+    100150: pasted__rightWing 2
+    100152: rightFoot1A
+    100154: rightFoot1B
+    100156: rightFoot1C
+    100158: rightFoot1CNTR
+    100160: rightFoot1D
+    100162: rightFoot2A
+    100164: rightFoot2B
+    100166: rightFoot2C
+    100168: rightFoot2CNTR
+    100170: rightFoot2D
+    100172: rightFoot3A
+    100174: rightFoot3B
+    100176: rightFoot3C
+    100178: rightFoot3CNTR
+    100180: rightFoot3D
+    100182: rightFoot4A
+    100184: rightFoot4B
+    100186: rightFoot4C
+    100188: rightFoot4CNTR
+    100190: rightFoot4D
+    100192: rightWing
+    100194: thorax1
+    100196: thorax2
+    100198: thorax3
+    100200: thorax4
+    100202: thorax5
+    100204: wingLeft
+    100206: wingRight
+    400000: //RootNode
+    400002: Base
+    400004: Body
+    400006: bodyCNTR
+    400008: cntr
+    400010: eye1
+    400012: eye10
+    400014: eye11
+    400016: eye12
+    400018: eye13
+    400020: eye14
+    400022: eye15
+    400024: eye16
+    400026: eye17
+    400028: eye18
+    400030: eye19
+    400032: eye2
+    400034: eye20
+    400036: eye21
+    400038: eye22
+    400040: eye3
+    400042: eye4
+    400044: eye5
+    400046: eye6
+    400048: eye7
+    400050: eye8
+    400052: eye9
+    400054: group
+    400056: group1
+    400058: group2
+    400060: head
+    400062: ikHandle1
+    400064: ikHandle2
+    400066: ikHandle3
+    400068: ikHandle4
+    400070: ikHandle5
+    400072: ikHandle6
+    400074: ikHandle7
+    400076: ikHandle8
+    400078: ikHandle9
+    400080: leftFoot1A
+    400082: leftFoot1B
+    400084: leftFoot1C
+    400086: leftFoot1CNTR
+    400088: leftFoot1D
+    400090: leftFoot2A
+    400092: leftFoot2B
+    400094: leftFoot2C
+    400096: leftFoot2CNTR
+    400098: leftFoot2D
+    400100: leftFoot3A
+    400102: leftFoot3B
+    400104: leftFoot3C
+    400106: leftFoot3CNTR
+    400108: leftFoot3D
+    400110: leftFoot4A
+    400112: leftFoot4B
+    400114: leftFoot4C
+    400116: leftFoot4CNTR
+    400118: leftFoot4D
+    400120: leftWing
+    400122: mandLeft
+    400124: mandRight
+    400126: neck
+    400128: pasted__Base
+    400130: pasted__Base 1
+    400132: pasted__Base 2
+    400134: pasted__bodyCNTR
+    400136: pasted__bodyCNTR 1
+    400138: pasted__bodyCNTR 2
+    400140: pasted__cntr
+    400142: pasted__cntr 1
+    400144: pasted__cntr 2
+    400146: pasted__rightWing
+    400148: pasted__rightWing 1
+    400150: pasted__rightWing 2
+    400152: rightFoot1A
+    400154: rightFoot1B
+    400156: rightFoot1C
+    400158: rightFoot1CNTR
+    400160: rightFoot1D
+    400162: rightFoot2A
+    400164: rightFoot2B
+    400166: rightFoot2C
+    400168: rightFoot2CNTR
+    400170: rightFoot2D
+    400172: rightFoot3A
+    400174: rightFoot3B
+    400176: rightFoot3C
+    400178: rightFoot3CNTR
+    400180: rightFoot3D
+    400182: rightFoot4A
+    400184: rightFoot4B
+    400186: rightFoot4C
+    400188: rightFoot4CNTR
+    400190: rightFoot4D
+    400192: rightWing
+    400194: thorax1
+    400196: thorax2
+    400198: thorax3
+    400200: thorax4
+    400202: thorax5
+    400204: wingLeft
+    400206: wingRight
+    4300000: wingLeft
+    4300002: wingRight
+    4300004: eye22
+    4300006: eye21
+    4300008: eye20
+    4300010: eye19
+    4300012: eye18
+    4300014: eye17
+    4300016: eye16
+    4300018: eye15
+    4300020: eye14
+    4300022: eye13
+    4300024: eye12
+    4300026: eye11
+    4300028: eye10
+    4300030: eye9
+    4300032: eye8
+    4300034: eye7
+    4300036: eye6
+    4300038: eye5
+    4300040: eye4
+    4300042: eye3
+    4300044: eye2
+    4300046: eye1
+    4300048: Body
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Body
+    13700002: eye1
+    13700004: eye10
+    13700006: eye11
+    13700008: eye12
+    13700010: eye13
+    13700012: eye14
+    13700014: eye15
+    13700016: eye16
+    13700018: eye17
+    13700020: eye18
+    13700022: eye19
+    13700024: eye2
+    13700026: eye20
+    13700028: eye21
+    13700030: eye22
+    13700032: eye3
+    13700034: eye4
+    13700036: eye5
+    13700038: eye6
+    13700040: eye7
+    13700042: eye8
+    13700044: eye9
+    13700046: wingLeft
+    13700048: wingRight
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

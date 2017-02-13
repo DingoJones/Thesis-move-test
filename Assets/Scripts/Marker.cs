@@ -1,0 +1,111 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class Marker : MonoBehaviour {
+	private float moveInterval;  //Seconds between each move.
+	private float moveVelocity;  //How fast wolf chases.
+	private float chaseProximity; 
+
+	public GameObject Player;	//the player character
+	public GameObject Beacon;	//the marker
+	public GameObject Wolf;
+
+	private Transform player;
+
+	private NavMeshAgent beacon; 
+
+	private Transform beaconTr;
+
+	public bool call;			//the comand to bring the wolf to the player
+	public bool move;			//how the wolf moves to the player
+	public bool idle;			//how the wolf behaves when not 
+
+	public bool doodle;
+
+	// Use this for initialization
+	void Start () {
+
+		moveInterval = 10;
+		moveVelocity = 100f;
+		chaseProximity = 1;
+
+		player = GameObject.FindWithTag("Player").GetComponent<Transform>();
+		beacon = GetComponent<NavMeshAgent>();
+		beaconTr = GetComponent<Transform>();
+		//wolf = GameObject.FindWithTag("Wolf");
+
+		call = false;
+		move = false;
+		idle = true;
+		doodle = false;
+
+
+	}
+
+	// Update is called once per frame
+	void Update () {
+		/*
+		if (!move && !call)  {
+			StartCoroutine(movementCycle());
+		}
+		*/
+		if (!idle && (Vector3.Distance(player.position, beaconTr.position) < chaseProximity)) {
+			idle = true;
+			move = false;
+			call = false;
+			//print ("stop");
+
+		}
+
+		if (Input.GetMouseButtonDown(0)){
+			print("mouse1 was pressed");
+			call = true;
+			//StartCoroutine (wolfcall ());
+		}
+
+		if (call == true) {
+			move = true;
+			idle = false;
+		}
+
+		if (move == true) {
+			beaconTr.LookAt(player);
+			beaconTr.Translate(moveVelocity * Vector3.forward * Time.deltaTime);
+			/*
+			OFollow fw = Wolf.GetComponent<OFollow>();
+			fw.call = true;
+*/
+			doodle = true;
+
+		}
+
+
+		/*
+		if (wolf reaches last call location stop) {
+			call = false;
+			move = false;
+			idle = true; 
+
+		}
+*/
+
+	}
+	/*
+	IEnumerator movementCycle()   {
+		idle = true;
+
+		NavMeshHit hit;
+
+		Vector3 randomPos = (Random.insideUnitSphere * 30) + startPos;
+		NavMesh.SamplePosition(randomPos, out hit, 10, 1);
+		wolf.destination = hit.position;
+
+		yield return new WaitForSeconds(moveInterval); 
+		idle = false;
+	}
+*/
+	public void wolfcall() {
+		
+
+	}
+}
