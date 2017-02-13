@@ -136,7 +136,7 @@ public class OFollow : MonoBehaviour {
 			wolfTr.LookAt (rwrd);
 			wolfTr.Translate (moveVelocity * Vector3.forward * Time.deltaTime);
 		}
-
+		/*
 		if ((Vector3.Distance (rwrd.position, wolfTr.position) < rewardCollect)) {
 			wolfCounter = (wolfCounter + 1);
 			print (wolfCounter);
@@ -147,7 +147,7 @@ public class OFollow : MonoBehaviour {
 		if ((Vector3.Distance (rwrd.position, wolfTr.position) < rewardCollect)) {
 			kll = false;
 		}
-
+		*/
 		if (wolfCounter > 100) {
 			wolfTr.LookAt (player);
 			wolfTr.Translate (moveVelocity * Vector3.forward * Time.deltaTime);

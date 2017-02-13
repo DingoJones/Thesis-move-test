@@ -56,9 +56,10 @@ public class rewardCreature : MonoBehaviour {
 		}
 
 		if (run == true) {
-			rwrdTr.LookAt(wolf);
-			rwrdTr.Translate(runVelocity * Vector3.back * Time.deltaTime);
-			//Destroy(gameObject, 1);
+			rwrdTr.LookAt(home);
+			rwrdTr.Translate(runVelocity * Vector3.forward * Time.deltaTime);
+			Destroy(gameObject, 1);
+			//(Vector3.Distance (current.position, next.position) < 10)
 		}
 
 	}
