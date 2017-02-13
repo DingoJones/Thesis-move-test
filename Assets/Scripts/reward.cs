@@ -19,6 +19,9 @@ public class reward : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+		if (playerCounter == 8) {
+			print ("winner");
+		}
 
 	}
 
@@ -30,54 +33,6 @@ public class reward : MonoBehaviour {
 			Destroy (obj.gameObject);
 
 		}
-		if (obj.gameObject.tag == "Rewardb")   {
-			playerCounter = (playerCounter + 1);
-			print (playerCounter);
-			//obj.gameObject.SetActive (false);
-			Destroy (obj.gameObject);
 
-		}
-		if (obj.gameObject.tag == "Rewardc")   {
-			playerCounter = (playerCounter + 1);
-			print (playerCounter);
-			//obj.gameObject.SetActive (false);
-			Destroy (obj.gameObject);
-
-		}
-		if (obj.gameObject.tag == "Rewardd")   {
-			playerCounter = (playerCounter + 1);
-			print (playerCounter);
-			//obj.gameObject.SetActive (false);
-			Destroy (obj.gameObject);
-
-		}
-		if (obj.gameObject.tag == "Rewarde")   {
-			playerCounter = (playerCounter + 1);
-			print (playerCounter);
-			//obj.gameObject.SetActive (false);
-			Destroy (obj.gameObject);
-
-		}
-		if (obj.gameObject.tag == "Rewardf")   {
-			playerCounter = (playerCounter + 1);
-			print (playerCounter);
-			//obj.gameObject.SetActive (false);
-			Destroy (obj.gameObject);
-
-		}
-		if (obj.gameObject.tag == "Rewardg")   {
-			playerCounter = (playerCounter + 1);
-			print (playerCounter);
-			//obj.gameObject.SetActive (false);
-			Destroy (obj.gameObject);
-
-		}		
-		if (obj.gameObject.tag == "Rewardh")   {
-			playerCounter = (playerCounter + 1);
-			print (playerCounter);
-			//obj.gameObject.SetActive (false);
-			Destroy (obj.gameObject);
-
-		}
 	}
 }

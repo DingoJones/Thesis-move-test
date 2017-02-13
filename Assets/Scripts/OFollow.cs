@@ -50,7 +50,7 @@ public class OFollow : MonoBehaviour {
 		moveVelocity = 7.5f;
 		chaseProximity = 2;
 		atkProximity = 3;
-		rewardProximity = 7;
+		rewardProximity = 5;
 		rewardCollect = 2;
 
 
@@ -100,6 +100,16 @@ public class OFollow : MonoBehaviour {
 
 		}
 
+		if ((Vector3.Distance (wolfTr.position, rwrd.position) < rewardProximity)) {
+			wrd = true;
+			atk = false;
+			idle = false;
+			move = false;
+			call = false;
+			print ("before wolf looking at reward");
+
+		}
+
 		if (Input.GetMouseButtonDown (0)) {
 			print ("mouse1 was pressed");
 			call = true;
@@ -112,6 +122,8 @@ public class OFollow : MonoBehaviour {
 			print ("called");
 		}
 
+
+
 		if (move == true) {
 			wolfTr.LookAt (beacon);
 			wolfTr.Translate (moveVelocity * Vector3.forward * Time.deltaTime);
@@ -122,35 +134,27 @@ public class OFollow : MonoBehaviour {
 			wolfTr.Translate (moveVelocity * Vector3.forward * Time.deltaTime);
 		}
 
-
-		if ((Vector3.Distance (rwrd.position, wolfTr.position) < rewardProximity)) {
-			wrd = true;
-
-		}
-
-		if ((Vector3.Distance (rwrd.position, wolfTr.position) > rewardProximity)) {
-			wrd = false;
-
-		}
 		if (wrd == true) {
 			wolfTr.LookAt (rwrd);
 			wolfTr.Translate (moveVelocity * Vector3.forward * Time.deltaTime);
 		}
+
 		/*
-		if ((Vector3.Distance (rwrd.position, wolfTr.position) < rewardCollect)) {
+		if ((Vector3.Distance (wolfTr.position, rwrd.position) < rewardCollect)) {
 			wolfCounter = (wolfCounter + 1);
 			print (wolfCounter);
+			print ("non-coll");
 			//rwrd.gameObject.SetActive (false);
 			kll = true;
 		}
 
-		if ((Vector3.Distance (rwrd.position, wolfTr.position) < rewardCollect)) {
+		if ((Vector3.Distance (wolfTr.position, rwrd.position) < rewardCollect)) {
 			kll = false;
 		}
-		*/
-		if (wolfCounter > 100) {
-			wolfTr.LookAt (player);
-			wolfTr.Translate (moveVelocity * Vector3.forward * Time.deltaTime);
+*/
+		if (wolfCounter > 5) {
+		//	wolfTr.LookAt (player);
+		//	wolfTr.Translate (moveVelocity * Vector3.forward * Time.deltaTime);
 		}
 
 	}
@@ -184,11 +188,11 @@ public class OFollow : MonoBehaviour {
 			}
 
 		}
-		if (obj.gameObject.tag == "Reward") {
+		if (obj.gameObject.tag == "Rewarda") {
 			wolfCounter = (wolfCounter + 1);
 			print (wolfCounter);
 			obj.gameObject.SetActive (false);
-
+			print ("coll");
 		}
 
 	}

@@ -32,7 +32,7 @@ public class rewardCreature : MonoBehaviour {
 		moveInterval = 50;
 		moveVelocity = 7.5f;
 		runVelocity = 20f;
-		wolfProximity = 1;
+		wolfProximity = 2;
 
 		//Rwrd = GameObject.FindWithTag("Reward").GetComponent<Transform>();
 		wolf = GameObject.FindWithTag("Wolf").GetComponent<Transform>();
